@@ -1,40 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is the HTML document for lab seven">
-    <title>Lab Seven</title>
-    <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Step 1: link the js file to the HTML document -->
-    <script type="text/javascript" src="./js/index.js"></script>
 
-  </head>
-  <!-- Step 2: Create an alert that says "Hello World" on screen load. -->
-  <body>
-    <!-- Step 3: Using JavaScript, make the background of the header black and the h1 centered and font color white -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Discover [Your Favorite Candy]</title>
+</head>
+
+<body>
     <header>
-      <h1>Lab Seven</h1>
+        <div class="header-content">
+            <img src="header11.png" alt="Header Image">
+      </div>
     </header>
-    <section class="lab-seven-row-one">
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda beatae corporis delectus deserunt ducimus eaque facere hic id inventore labore nulla perferendis, perspiciatis quod quos sit vitae voluptates. Dignissimos, facilis nemo non rem sapiente soluta velit vitae! Animi atque cupiditate debitis nobis perspiciatis, provident quod repellendus? Assumenda culpa cumque earum et, excepturi exercitationem impedit iste modi natus, nihil repellendus tempora tempore temporibus. Dolore dolorem exercitationem facere laborum laudantium nisi possimus quidem quis voluptas, voluptates.</p>
-      </div>
+
+    <section class="main-content">
+        <article>
+            <h2>Fun Facts</h2>
+            <p>Did you know that Bounty is a coconut-filled chocolate bar that has been delighting taste buds since its introduction in 1951?</p>
+            <p>Originally created by the British company Mars, Bounty is known for its distinct combination of moist and tender coconut covered in a layer of smooth milk chocolate.</p>
+            <p>The coconut filling in Bounty bars is made from freshly grated coconut, giving it a rich and authentic tropical flavor.</p>
+            <p>Bounty has become a popular treat worldwide and comes in various forms, including the classic Bounty bar and Bounty Dark for those who prefer a more intense chocolate experience.</p>
+        </article>
+
+        <article>
+            <h2>Irresistible Goodness</h2>
+            <img src="img2.jpg" alt="Image of your favorite candy">
+        </article>
+
+        <article>
+            <h2>Nutritional Goodness</h2>
+            <p>Indulging in the delicious Bounty candy can be a delightful experience, but it's essential to be mindful of its nutritional content.</p>
+            
+            <ul>
+                <li><strong>Calories:</strong> A typical Bounty bar contains around 192 calories, making it a moderate-energy treat.</li>
+                <li><strong>Fat Content:</strong> Bounty is known for its coconut filling, which contributes to its fat content. One bar typically contains about 12 grams of fat.</li>
+                <li><strong>Sugar:</strong> The sweetness of Bounty comes from sugar. A standard bar contains approximately 19 grams of sugar.</li>
+                <li><strong>Protein:</strong> While Bounty is not a significant source of protein, it provides around 2 grams per bar.</li>
+            </ul>
+
+        </article>
+        
     </section>
-    <!-- Step 4: Using JavaScript, make the section below a grid container with the 1st & 3rd column 25% wide and the middle column 50% wide. -->
-    <section class="lab-seven-row-two">
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda beatae corporis delectus deserunt ducimus eaque facere hic id inventore labore nulla perferendis, perspiciatis quod quos sit vitae voluptates.</p>
-      </div>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda beatae corporis delectus deserunt ducimus eaque facere hic id inventore labore nulla perferendis, perspiciatis quod quos sit vitae voluptates.</p>
-      </div>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda beatae corporis delectus deserunt ducimus eaque facere hic id inventore labore nulla perferendis, perspiciatis quod quos sit vitae voluptates.</p>
-      </div>
-    </section>
-    <!-- Step 4: Using JavaScript, add an h4 element with the text "End of Lab Seven" and center the text -->
-    <footer class="lab-seven-footer"></footer>
-  </body>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="logo.jpg" alt="Candy Logo">
+        </div>
+        <div class="company-info">
+            <p>Bounty land Co.</p>
+            <p>238 Johns St, Sweet City</p>
+            <p>Phone: 1234567890</p>
+        </div>
+        <div class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Get in Touch</button>
+        </div>
+    </footer>
+</body>
+
 </html>
